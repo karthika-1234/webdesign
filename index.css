@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+  width: 80%;
+  height: 40%;
+  border-radius: 50%;
+  margin: auto;
+  border: 5px solid gray;
+  padding: 2px;
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:500px) {
+  .img1 {
+    width: 250px;
+    height: 200px;
+    margin-top: 50px;
+  }
+
+  .img2 {
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+  }
+}
